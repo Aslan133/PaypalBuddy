@@ -27,50 +27,26 @@ namespace PaypalBuddy
                     .Split(new string[] { "from=USD&amp;to=EUR'>" }, StringSplitOptions.None)[1]
                     .Split(new string[] { "</a></td>" }, StringSplitOptions.None)[0];
 
-                return rate;
+                return Math.Round(float.Parse(rate.Replace('.', ',')), 4).ToString();
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                return null;
+                //throw new Exception(ex.Message);
             }
         }
-        //public static string[] GetPreviousRatesCurr(string lastCurrUrl)
-        //{
-        //    try
-        //    {
-        //        string currencyRateWebsiteUrl_other_full = lastCurrUrl
-        //                                                        + DateTime.Now.AddMonths(-1).ToString("yyyy-MM-dd")
-        //                                                        + "&date_to_day="
-        //                                                        + DateTime.Now.ToString("yyyy-MM-dd");
-
-
-        //        var htmlresult2 = GetHTML(currencyRateWebsiteUrl_other_full);
-
-        //        //var tempp = GetPreviousRatesObj(htmlresult2);
-        //        //string[] rates = new string[tempp.Count];
-
-        //        //for (int i = 0; i < tempp.Count; i++)
-        //        //{
-        //        //    rates[i] = tempp[i].CurrencyRate;
-        //        //}
-
-        //        return rates;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-        //}
         
         public static List<Rate> GetPreviousRates(string url)
         {
-            List<Rate> rates = new List<Rate>();
+            List<Rate> rates = null;
 
             try
             {
                 var htmlString = GetHTML(url);
 
                 string[] temp = htmlString.Split(new string[] { "<td class=\"cur-col-w100\">" }, StringSplitOptions.None);
+
+                rates = new List<Rate>();
 
                 for (int i = 0; i < temp.Count(); i++)
                 {
@@ -92,7 +68,7 @@ namespace PaypalBuddy
             catch (Exception)
             {
 
-                throw;
+                //throw;
             }
 
             return rates;

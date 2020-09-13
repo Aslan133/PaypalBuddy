@@ -1,7 +1,6 @@
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.exe.config
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.exe
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.pdb
-C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csprojAssemblyReference.cache
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Form1.resources
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Properties.Resources.resources
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.GenerateResource.cache
@@ -11,3 +10,5 @@ C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\Paypal
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\HtmlAgilityPack.xml
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CopyComplete
+C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Form2.resources
+C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CoreCompileInputs.cache
