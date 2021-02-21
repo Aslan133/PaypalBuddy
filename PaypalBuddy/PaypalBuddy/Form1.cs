@@ -118,7 +118,7 @@ namespace PaypalBuddy
             SystemEvents.PowerModeChanged += OnPowerChange;
 
             //init settings
-            txtUpdateFrequency.Text = "10";
+            txtUpdateFrequency.Text = Properties.Settings.Default.CurrencyUpdateFreq;
 
             //set current rate
             SetCurrentCurrency();
@@ -225,12 +225,21 @@ namespace PaypalBuddy
 
             if (!Int32.TryParse(txtUpdateFrequency.Text, out temp))
             {
-                txtUpdateFrequency.Text = "3600";
+                txtUpdateFrequency.Text = "600";
+                Properties.Settings.Default.CurrencyUpdateFreq = txtUpdateFrequency.Text;
+                Properties.Settings.Default.Save();
+                return;
             } 
             else if(temp == 0)
             {
-                txtUpdateFrequency.Text = "3600";
+                txtUpdateFrequency.Text = "600";
+                Properties.Settings.Default.CurrencyUpdateFreq = txtUpdateFrequency.Text;
+                Properties.Settings.Default.Save();
+                return;
             }
+
+            Properties.Settings.Default.CurrencyUpdateFreq = temp.ToString();
+            Properties.Settings.Default.Save();
         }
         #endregion
 
@@ -238,6 +247,17 @@ namespace PaypalBuddy
         {
             Form2 form = new Form2();
             form.Show();
+        }
+
+        private void btnCalcPPTaxes_Click(object sender, EventArgs e)
+        {
+            float ppCur = 0;
+            float realCur = float.Parse(lblCurrencyRateNo1.Text);
+
+            if (float.TryParse(txtPaypalCurrencyRate.Text, out ppCur) && ppCur != 0)
+            {
+                lblPaypalTaxes.Text = Math.Round(((realCur - ppCur) * 100) / realCur, 2).ToString() + " %";
+            }
         }
     }
 }

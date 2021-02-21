@@ -49,10 +49,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPayPalConvTaxes = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtPaypalCurrencyRate = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblPaypalTaxes = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnCalcPPTaxes = new System.Windows.Forms.Button();
             this.tabLayout1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -211,6 +217,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnCalcPPTaxes);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.lblPaypalTaxes);
+            this.groupBox2.Controls.Add(this.txtPaypalCurrencyRate);
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(3, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(172, 176);
@@ -276,6 +287,54 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "PayPal Taxes, %";
             // 
+            // txtPaypalCurrencyRate
+            // 
+            this.txtPaypalCurrencyRate.Location = new System.Drawing.Point(107, 19);
+            this.txtPaypalCurrencyRate.Name = "txtPaypalCurrencyRate";
+            this.txtPaypalCurrencyRate.Size = new System.Drawing.Size(61, 20);
+            this.txtPaypalCurrencyRate.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(5, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "PayPal Rate:";
+            // 
+            // lblPaypalTaxes
+            // 
+            this.lblPaypalTaxes.AutoSize = true;
+            this.lblPaypalTaxes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaypalTaxes.Location = new System.Drawing.Point(103, 77);
+            this.lblPaypalTaxes.Name = "lblPaypalTaxes";
+            this.lblPaypalTaxes.Size = new System.Drawing.Size(43, 20);
+            this.lblPaypalTaxes.TabIndex = 5;
+            this.lblPaypalTaxes.Text = "TAX";
+            this.lblPaypalTaxes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(5, 82);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(92, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "PayPal Tax, %:";
+            // 
+            // btnCalcPPTaxes
+            // 
+            this.btnCalcPPTaxes.Location = new System.Drawing.Point(107, 45);
+            this.btnCalcPPTaxes.Name = "btnCalcPPTaxes";
+            this.btnCalcPPTaxes.Size = new System.Drawing.Size(61, 23);
+            this.btnCalcPPTaxes.TabIndex = 11;
+            this.btnCalcPPTaxes.Text = "Calc";
+            this.btnCalcPPTaxes.UseVisualStyleBackColor = true;
+            this.btnCalcPPTaxes.Click += new System.EventHandler(this.btnCalcPPTaxes_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,6 +352,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -323,6 +384,11 @@
         private System.Windows.Forms.Label lblLastUpdate;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnShowAllCurrData;
+        private System.Windows.Forms.Button btnCalcPPTaxes;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblPaypalTaxes;
+        private System.Windows.Forms.TextBox txtPaypalCurrencyRate;
+        private System.Windows.Forms.Label label4;
     }
 }
 

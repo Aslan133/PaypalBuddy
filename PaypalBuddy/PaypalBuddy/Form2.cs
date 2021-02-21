@@ -57,7 +57,7 @@ namespace PaypalBuddy
                 rates.Add(1/Convert.ToDouble(item.CurrencyRate));
             }
             chart1.ChartAreas[0].AxisY.Maximum = Math.Round(rates.Max(),2) + 0.01;
-            chart1.ChartAreas[0].AxisY.Minimum = Math.Round(rates.Min(),2) + 0;
+            chart1.ChartAreas[0].AxisY.Minimum = Math.Round(rates.Min(),2) - 0.01;
 
             //chart title  
             chart1.Titles.Add("Currency Rate Chart - Month Interval");
