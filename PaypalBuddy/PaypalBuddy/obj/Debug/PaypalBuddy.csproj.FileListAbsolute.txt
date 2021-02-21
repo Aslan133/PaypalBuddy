@@ -12,3 +12,18 @@ C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\Paypal
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CopyComplete
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Form2.resources
 C:\Users\Ruslanas\Desktop\Asmeninis tobulejimas\Programavimas\C#\Projects\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CoreCompileInputs.cache
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.exe.config
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.exe
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\PaypalBuddy.pdb
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\HtmlAgilityPack.dll
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\bin\Debug\HtmlAgilityPack.xml
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csprojAssemblyReference.cache
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Form1.resources
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Form2.resources
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.Properties.Resources.resources
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.GenerateResource.cache
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CoreCompileInputs.cache
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.csproj.CopyComplete
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.exe
+C:\Users\dkasl\Desktop\Asmeninis tobulėjimas\1. Programavimas\Projects\GitHub\PaypalBuddy\PaypalBuddy\PaypalBuddy\obj\Debug\PaypalBuddy.pdb
